@@ -1,0 +1,218 @@
+body {
+    background-color:#1b1b2f;
+    width: auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* navigation */
+
+header {
+    background-color: #1f4068;
+    color: beige;
+    text-align: center;
+    padding-top: 20px;
+}
+nav {
+    width: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: beige;
+}
+
+nav a:visited{
+    color: beige;
+}
+
+nav a:hover{
+    color: #e43f5a;
+}
+
+nav h2 {
+    width: 25%;
+    float: left;
+    vertical-align: top;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+ul.navbar-list {
+    margin-top: 30px;
+}
+
+ul {
+    /* width: 75%; */
+    margin-left: 35%;
+    padding-bottom: 50px;
+    /* float: top; */
+    /* vertical-align: top; */
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 2%;
+
+}
+
+/* welcome */
+
+.welcome {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+.welcome img {
+    border-radius: 100%;
+    width: 40%;
+}
+
+.welcome h1 {
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+/* about me section */
+#about-me {
+    text-align: center;
+    background-color: #1f4068;
+    color: beige;
+    padding: 10px 20px 40px 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+#about-me img {
+    width: 50%;
+}
+
+#about-me h2 {
+    font-size: 2rem;
+}
+
+#about-me p {
+    font-size: 1rem;
+}
+
+#hobbies {
+    background-color: #162447;
+    color: beige;
+    padding: 10px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+    text-align: center
+    
+}
+
+#hobbies h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#hobbies ul {
+    list-style-type: none;
+    text-align:justify;
+    font-size: 1rem;
+}
+
+#hobbies img {
+    width:50%;
+    border-radius: 15%;
+}
+
+@media screen and (max-width: 500px) {
+    #hobbies ul {
+        margin: 0px;
+        text-align: center;
+    }
+
+}
+/* Contact Me */
+
+address {
+    background-color: #1f4068;
+    color: beige;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    width: auto;
+    margin: 20px 25px 0px 25px;
+}
+
+address input {
+    margin-top: 5px;
+    text-align: left;
+}
+
+address img {
+    width: 50%;
+}
+
+address button {
+    margin-top: 20px;
+    background-color: #162447;
+    color: beige;
+    border: solid 2px beige;
+    border-radius: 15px;
+}
+
+address button:hover{
+    background-color: #e43f5a;
+}
+
+address form {
+    padding-bottom: 20px;
+}
+
+address a {
+    text-decoration: none;
+    color: beige;
+}
+
+address a:hover {
+    color:  #e43f5a;
+}
+
+/* gallery */
+.gallery {
+    color: beige;
+    text-align: center;
+    background-color: #1f4068;
+    width: auto;
+    padding: 20px 10px 20px 10px;
+    font-size: 1.5rem;
+}
+
+.gallery a {
+    text-decoration: none;
+    color: beige;
+}
+
+.gallery a:hover{
+    color:  #e43f5a;
+}
+
+.pictures {
+    margin-bottom: 20px;
+}
+
+.pictures img {
+    display: inline-block;
+    width: 24%;
+}
+
+@media screen and (max-width: 800px){
+    .pictures img {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pictures img {
+        width: 99%;
+    }
+}
+/* footer */
+
+footer {
+    color: beige;
+    text-align: center;
+}
